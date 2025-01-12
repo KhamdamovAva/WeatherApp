@@ -119,3 +119,42 @@ body {
   display: none;
   font-size: 24px;
 }
+
+@media screen and (max-width: 494px) {
+  .content {
+    width: 380px;
+    padding: 20px 20px;
+  }
+  .search-box input {
+    padding: 0px 32px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .content {
+    width: 300px;
+  }
+  .search-box input::placeholder {
+    font-size: 16px;
+  }
+  .weather {
+    margin-top: 20px;
+  }
+
+  .weather-img-icon {
+    width: 110px;
+  }
+  .weather h1 {
+    font-size: 50px;
+  }
+
+  .weather h2 {
+    font-size: 38px;
+  }
+  .details {
+    font-size: 40px;
+  }
+
+  .details p {
+    font-size: 20px;
+  }
+}
