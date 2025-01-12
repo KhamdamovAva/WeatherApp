@@ -92,8 +92,9 @@ body {
 
 .weather h2 {
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 20px;
+  color: rgb(121, 105, 179);
 }
 
 .details {
@@ -131,7 +132,10 @@ body {
 }
 @media screen and (max-width: 420px) {
   .content {
-    width: 300px;
+    width: 330px;
+  }
+  .search-box input {
+    padding: 0px 28px;
   }
   .search-box input::placeholder {
     font-size: 16px;
