@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', function () {
     weather.style.display = "block";
     error.style.display = "none";
   }
-
+  
   searchButton.addEventListener('click', () => {
     checkWeather(searchInput.value);
     searchInput.value = "";
